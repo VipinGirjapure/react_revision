@@ -1,0 +1,5 @@
+const MadeGoal = ( ) =>{
+    return <h1> GOAL !</h1>
+}
+
+export default MadeGoal; 
