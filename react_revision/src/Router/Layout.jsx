@@ -9,27 +9,24 @@ const Layout = () => {
   return (
     <>
       <BrowserRouter>
-       
+        <ul className="App">
+          <li style={{ listStyle: "none" }}>
+            <Link to="/">Main</Link>
+            <Link to="/home">Home</Link>
+            <Link to="/blogs">Blogs</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/"></Link>
+          </li>
+        </ul>
 
-      <ul className="App">
-        <li style={{listStyle:"none"}}>
-          <Link to="/">Main</Link>
-          <Link to="/home">Home</Link>
-          <Link to="/blogs">Blogs</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/"></Link>
-        </li>
-      </ul>
-
-      <Routes>
+        <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/home" element={<Home/>} />
+          <Route path="/home" element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound/>}/>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-
     </>
   );
 };

@@ -73,12 +73,13 @@ State can not be passed into another object.
 
 5. What is JSX and why do we use it instead of js ?
 
-JSX full form is JavaScript XML(Extensible Markup Language), which allows us to write HTML in React.
-JSX makes it easier for us to write and add HTML to React.
-JSX tag has tag name, attributes and children which make it look like xml.
-JSX allows us to write HTML elements in JavaScript and place it in the DOM. 
-JSX makes it easier to write React applications and converts HTML tags into react elements.
-Babel 
+- JSX full form is JavaScript XML(Extensible Markup Language), which allows us to write HTML in React.
+- JSX makes it easier for us to write and add HTML to React.
+- JSX tag has tag name, attributes and children which make it look like xml.
+- JSX allows us to write HTML elements in JavaScript and place it in the DOM. 
+- JSX makes it easier to write React applications and converts HTML tags into react elements.
+- you are not required to use JSX, but JSX makes it easier to write React applications.
+- Babel 
 
 6. How do you use pass data from one component to another ?
 
